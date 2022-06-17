@@ -1,3 +1,4 @@
+import { AuthComponent } from './auth/auth.component';
 import { RecipeService } from './recipes/recipe.service';
 import { ShoppingListService } from './shopping-list/shopping-list.service';
 import { DropdownDirective } from './shared/dropdown.directive';
@@ -31,6 +32,7 @@ import { RecipeEditComponent } from './recipes/recipe-edit/recipe-edit.component
     DropdownDirective,
     RecipeStartComponent,
     RecipeEditComponent,
+    AuthComponent,
   ],
   imports: [
     BrowserModule,
